@@ -2,7 +2,7 @@
 
 
 ## Environments
-- Preview: Preview: https://main--blue-shield-ca--adobedevxsc.hlx.page/
+- Preview: https://main--blue-shield-ca--adobedevxsc.hlx.page/
 - Live: https://main--blue-shield-ca--adobedevxsc.hlx.live/
 
 ## Installation
@@ -19,7 +19,6 @@ npm run lint
 
 ## Local development
 
-<!-- TODO: update with verbiage specific to door-opener template -->
 1. Create a new repository based on the `door-opener-boilerplate` template and add a mountpoint in the `fstab.yaml`
 1. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
