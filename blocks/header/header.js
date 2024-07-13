@@ -209,6 +209,11 @@ export default async function decorate(block) {
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
+
+  const topNav = navWrapper.querySelector('.section:last-of-type .default-content-wrapper');
+  block.prepend(topNav);
+  block.append(navWrapper);
+
   block.append(navWrapper);
 
   if (getMetadata('breadcrumbs').toLowerCase() === 'true') {

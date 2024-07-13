@@ -73,8 +73,10 @@ body.appear {
   display: block;
 }
 
-header {
-  height: var(--nav-height);
+@media (width >= 900px) {
+  header {
+    height: 126px;
+  }
 }
 
 h1, h2, h3,
@@ -198,7 +200,7 @@ main .section {
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    max-width: 1376px;
     margin: auto;
   }
 }
