@@ -1,0 +1,68 @@
+.teaser.block > div:last-child {
+  border-radius: 20px;
+  color: #fff;
+  padding: 1.5rem;
+  background-color: #0071bc;
+  max-width: 100%;
+}
+
+.teaser.block > div:last-child h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.teaser.block > div:last-child p:first-of-type {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.teaser.block > div:last-child .button-container a {
+  color: #0071bc;
+  background-color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+.teaser.block > div:last-child .button-container a:hover {
+  background-color: #005b85;
+  color: #fff;
+}
+
+@media (width >= 900px) {
+  .teaser.block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    min-height: 426px;
+  }
+  
+  .teaser.block > div:first-child {
+    display: none;
+  }
+  
+  .teaser.block > div:last-child {
+    max-width: 40%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teaser.block > div:last-child p {
+    margin: 0 0 10px;
+  }
+  
+  .teaser.block > div:last-child .button-container {
+    margin-top: 20px;
+  }
+}
+
+@media (width <= 900px) {
+  .teaser.block {
+    background-image: none !important;
+    min-height: unset;
+  }
+}
