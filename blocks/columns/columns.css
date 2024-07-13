@@ -72,3 +72,9 @@
     border-radius: 6rem 0rem 0rem .5rem;
   }
 }
+
+@media (width <= 900px) {
+  main .section.columns-container:first-of-type {
+    padding: 0 16px;
+  }  
+}
