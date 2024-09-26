@@ -2,8 +2,8 @@
 
 
 ## Environments
-- Preview: https://main--blue-shield-ca--adobedevxsc.hlx.page/
-- Live: https://main--blue-shield-ca--adobedevxsc.hlx.live/
+- Preview: https://main--blue-shield-ca--lizbross.aem.page/
+- Live: https://main--blue-shield-ca--lizbross.aem.live/
 
 ## Installation
 
