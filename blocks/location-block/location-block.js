@@ -1,5 +1,5 @@
-//var long = document.getElementById("49131").innerHTML
-//var lat = document.getElementById("-123091").innerHTML
+//var long = document.getElementById("32131").innerHTML
+//var lat = document.getElementById("-96091").innerHTML
 
 var directions = document.getElementsByClassName("location-block")[0].innerHTML
 //var longandlat = directions.match(/(\d+(?:\.\d+)?)/g);
