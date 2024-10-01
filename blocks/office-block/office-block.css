@@ -1,0 +1,156 @@
+.office-block {
+  background-color: var(--background-color);
+  width: 450px;
+  border: 1px inset #ccc;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.office-block > div {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  margin-left: 300px;
+  text-align: center;
+  border: 1px inset grey;
+  border-radius: 10px;
+  width: 150px;
+}
+
+/* Title of the property */
+.office-block div:nth-child(2) {
+  background-color: var(--background-color);
+  font-size: 30px;
+  font-weight: 500;
+  color: green;
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+}
+
+.office-block div:nth-child(3) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.office-block div:nth-child(4) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.office-block div:nth-child(5) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.office-block div:nth-child(6) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+
+.office-block div:nth-child(7) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.office-block div:nth-child(7) img {
+  width: auto;
+  height: 55px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+
+.office-block div:nth-child(7):after {
+  content: "";
+  position: relative;
+  background: #ccc;
+  width: 100%;
+  height: 1px;
+}
+
+.office-block div:nth-child(8) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.office-block div:nth-child(8) img {
+  width: auto;
+  /* change size to 200 */
+  height: 55px;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+
+.office-block div:nth-child(8):after {
+  content: "";
+  position: relative;
+  background: #ccc;
+  width: 100%;
+  height: 1px;
+}
+
+
+.office-block div:nth-child(9) {
+  background-color: var(--background-color);
+  text-align: left;
+  width: 100%;
+  border: 0px inset white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 0;
+}
+
+.office-block div:nth-child(9) img {
+  width: auto;
+  height: 55px;
+  vertical-align: middle;
+}
+
+.office-block div:nth-child(10) {
+  background-color: var(--background-color);
+  text-align: center;
+  width: 100%;
+  border: 0px inset white;
+  margin-left: 0;
+  padding-top: 25px;
+  
+}
+
+.office-block div:nth-child(10) img {
+  border-radius: 10px;
+} 
