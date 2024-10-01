@@ -1,4 +1,4 @@
-//var long = document.getElementById("32931").innerHTML
+//var long = document.getElementById("32100).innerHTML
 //var lat = document.getElementById("-96091").innerHTML
 
 var directions = document.getElementsByClassName("location-block")[0].innerHTML
